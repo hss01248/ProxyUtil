@@ -1,6 +1,8 @@
 # ProxyUtil
 base on cglib,generate proxy by java class or object
 
+can not be used on android platform,because the java class  structure in android virtual machine(divilk,art) is not same with that in jvm
+
 # usage
 copy  [cglib-nodep-3.2.5.jar](https://github.com/hss01248/ProxyUtil/blob/master/proxy/lib/cglib-nodep-3.2.5.jar) and the java files in [com.hss01248.proxy](https://github.com/hss01248/ProxyUtil/tree/master/proxy/src/main/java/com/hss01248/proxy) to your project
 
